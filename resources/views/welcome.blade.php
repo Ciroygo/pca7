@@ -83,7 +83,8 @@
                 </div>
 
                 <div class="links">
-                    <a href="#">新生的力量，努力前进！</a>
+                    <a href="#">新生的力量，努力前进！精进</a>
+                    <a href="#">{{getenv('APP_ENV')}}</a>
                 </div>
             </div>
         </div>
