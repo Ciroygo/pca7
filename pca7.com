@@ -6,7 +6,7 @@ server{
 
 server{
     listen 443;
-    server_name www.pca7.com;
+    server_name www.pca7.com pca7.com;
 
     ssl on;
     root /var/www/pca7.com/public;
