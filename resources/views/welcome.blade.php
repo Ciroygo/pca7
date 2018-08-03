@@ -79,15 +79,11 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                    hello world!
                 </div>
 
                 <div class="links">
-                    <a href="https://laravel.com/docs">Documentation</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
+                    <a href="#">新生的力量，努力前进！</a>
                 </div>
             </div>
         </div>
