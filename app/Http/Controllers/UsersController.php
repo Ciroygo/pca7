@@ -71,7 +71,7 @@ class UsersController extends Controller
 
     public function sendEmailConfirmationTo($user)
     {
-        $view = 'emails.confiirm';
+        $view = 'emails.confirm';
         $data = compact('user');
         // $from = 'cciipq@qq.com';
         // $name = "roy";
