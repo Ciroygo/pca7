@@ -68,12 +68,12 @@ class UsersController extends Controller
 
     public function sendEmailConfirmationTo($user)
     {
-        $view = 'emails.confirm';
+        $view = 'emails.confiirm';
         $data = compact('user');
-        $from = 'cciipq@qq.com';
-        $name = "roy";
+        // $from = 'cciipq@qq.com';
+        // $name = "roy";
         $to = $user->email;
-        $subject = "感谢注册 应用！请确认邮箱";
+        $subject = "感谢注册ciroy 应用！请确认邮箱";
 
         Mail::send($view, $data, function($message) use ($from, $name, $to, $subject){
             $message->from($from, $name)->to($to)->subject($subject);
