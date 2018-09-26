@@ -1,4 +1,4 @@
-@if ($user->if !== Auth::user()->id)
+@if ($user->id !== Auth::user()->id)
     <div id="follow_form">
         @if (Auth::user()->isFollowing($user->id))
             <form action="{{ route('followers.destroy', $user->id) }}" method="POST">
