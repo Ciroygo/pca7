@@ -31,7 +31,7 @@ class FollowersController extends Controller
     {
         if (Auth::user()->id === $user->id) {
             return redirect('/');
-        }
+    }
 
         if (Auth::user()->isFollowing($user->id)) {
             Auth::user()->unfollow($user->id);
