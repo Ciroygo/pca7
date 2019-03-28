@@ -3,6 +3,9 @@
         <!-- <div class="row"> -->
             <div class="col-md-offset-1 col-md-10">
                 <a href="{{ route('home') }}" id="logo">Pca7 App</a>
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item"><a href="https://bbs.pca7.com" class="nav-link">动态圈</a></li>
+                </ul>
                 <nav>
                     <ul class="nav navbar-nav navbar-right">
                         @if (Auth::check())
